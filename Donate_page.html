@@ -20,7 +20,15 @@
 	
 	<link type="text/css" rel="stylesheet" href="css/style.css" />
 
-	
+	<script>
+				function myFunction() {
+				var copyText = document.getElementById("myInput");
+				copyText.select();
+				copyText.setSelectionRange(0, 99999)
+				document.execCommand("copy");
+				alert("Copied the text: " + copyText.value);
+				}
+	</script>
 		
 
 </head>
@@ -40,12 +48,31 @@
 			<div class="loadingio-spinner-gear-yj8nw6gyjah"><div class="ldio-rfrzydg0a2j">
 				<div><div></div><div></div><div></div><div></div><div></div><div></div></div>
 				</div></div>
+				<br><br><br><br>
+				<h1>Donate</h1>
+				<h2>Bitcoin</h2>
 				
-				<h2>Donate</h2>
+				
+				<img src="Bitcoin.png" alt="Bitcoin" ><br/>
+				<input type="text" value="1BJZaTr3V459qa8bmXt8Ba6zKMQG6JPfDC" id="myInput">
+				<br><br>
+				<button onclick="myFunction()" >Copy BTC</button>
+				<br>
+				
+				<h2>Ether</h2>
+				<img src="Ether.png" alt="Bitcoin" ><br/>
+				<input type="text" value="0xA78Ed475709D8f21d94b408Aa14103f03E6CEE79" id="myInput">
+				<br><br>
+				<button onclick="myFunction()" >Copy Ether</button>
+				<br><br>
+
+				
+				
+				
 				
 			<a href="index.html">Home</a>
 			<div class="notfound-social">
-
+			
 				<a href="https://twitter.com/mehrzero"><i class="fa fa-twitter" style="font-size:36px"></i></a>
 				<a href="https://t.me/mehrzero"><i class="fa fa-telegram" style="font-size:36px"></i></a>
 				<a href="https://instagram.com/mehrzero"><i class="fa fa-instagram" style="font-size:36px"></i></a><br><br>

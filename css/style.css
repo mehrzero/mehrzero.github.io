@@ -161,12 +161,20 @@ body {
   font-size: 188px;
   font-weight: 700;
   margin: 0px;
-  animation-name: exampleh1;
-  animation-duration: 2s;
   text-shadow: 3px 3px 0px #ff0048;
   
   
 }
+.notfound  h1 {
+  font-family: 'Oswald', sans-serif;
+  color: #fff;
+  font-size: 60px;
+  font-weight: 70;
+  margin: 0px;
+  text-shadow: 3px 3px 0px #ff0048;
+  
+}
+
 @keyframes exampleh1 {
   from {color: #000;}
   to {color:#fff;}
@@ -180,8 +188,6 @@ body {
   text-transform: uppercase;
   letter-spacing: 1.6px;
   color: #fff;
-  animation-name: exampleh2;
-  animation-duration: 3s;  
   text-shadow: 4px 4px 0px #ff0048;
 }
 @keyframes exampleh2 {
@@ -191,8 +197,6 @@ body {
 .notfound p {
   font-family: 'Lato', sans-serif;
   color: #fff;
-  animation-name: examplep;
-  animation-duration: 4s;
   font-weight: 400;
   margin-top: 20px;
   margin-bottom: 25px;
@@ -207,8 +211,7 @@ body {
   padding: 5px 20px;
   display: inline-block;
   color: #fff;
-  /* animation-name: examplea;
-  animation-duration: 5s; */
+
   font-weight: 400;
   text-transform: uppercase;
   -webkit-box-shadow: 0px 0px 0px 2px#ff0048, 2px 2px 0px 2px #ff0048;
@@ -218,10 +221,74 @@ body {
   -webkit-transition: 0.2s all;
   transition: 0.2s all;
 }
-/* @keyframes examplea {
-  from {color: #000;}
-  to {color:#fff;}
-} */
+.notfound button {
+  font-family: 'Lato', sans-serif;
+  padding: 1px 5px;
+  display: inline-block;
+  color: #fff;
+
+  font-weight: 400;
+  
+  -webkit-box-shadow: 0px 0px 0px 2px#ff0048, 2px 2px 0px 2px #ff0048;
+          box-shadow: 0px 0px 0px 2px #ff0048, 2px 2px 0px 2px #ff0048;
+  text-decoration: none;
+  text-shadow: 1px 2px 0px #ff0048;
+  -webkit-transition: 0.2s all;
+  transition: 0.2s all;
+}
+
+.notfound input {
+  font-family: 'Lato', sans-serif;
+  padding: 1px 5px;
+  display: inline-block;
+  color: #fff;
+
+  font-weight: 400;
+  
+  -webkit-box-shadow: 0px 0px 0px 2px#ff0048, 2px 2px 0px 2px #ff0048;
+          box-shadow: 0px 0px 0px 2px #ff0048, 2px 2px 0px 2px #ff0048;
+  text-decoration: none;
+  text-shadow: 1px 2px 0px #ff0048;
+  -webkit-transition: 0.2s all;
+  transition: 0.2s all;
+}
+
+.notfound img {
+  font-family:  sans-serif;
+  padding: 1px 5px;
+  display: inline-block;
+  color: #fff;
+  font-weight: 400;
+  
+  -webkit-box-shadow: 0px 0px 0px 2px#ff0048, 2px 2px 0px 2px #ff0048;
+          box-shadow: 0px 0px 0px 2px #ff0048, 2px 2px 0px 2px #ff0048;
+  text-decoration: none;
+  text-shadow: 1px 2px 0px #ff0048;
+  -webkit-transition: 0.2s all;
+  transition: 0.2s all;
+}
+.notfound img:hover {
+  color: #000;
+  background-color: #ff0048;
+  
+  -webkit-box-shadow: 0px 0px 0px 0px #000000, 0px 0px 0px 2px#ff0048;
+          box-shadow: 0px 0px 0px 0px #000000, 0px 0px 0px 2px #ff0048;
+}
+
+.notfound input:hover {
+  color: #000;
+  background-color: #ff0048;
+  
+  -webkit-box-shadow: 0px 0px 0px 0px #000000, 0px 0px 0px 2px#ff0048;
+          box-shadow: 0px 0px 0px 0px #000000, 0px 0px 0px 2px #ff0048;
+}
+.notfound button:hover {
+  color: #000;
+  background-color: #ff0048;
+  
+  -webkit-box-shadow: 0px 0px 0px 0px #000000, 0px 0px 0px 2px#ff0048;
+          box-shadow: 0px 0px 0px 0px #000000, 0px 0px 0px 2px #ff0048;
+}
 .notfound a:hover {
   color: #000;
   background-color: #ff0048;
