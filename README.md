@@ -5,6 +5,15 @@
 
 ![پیش‌نمایش](https://via.placeholder.com/800x600/1a1a1a/ffffff?text=3D+Social+Links+Preview)
 
+ فناوری‌های استفاده شده
+
+    HTML5
+
+    CSS3
+
+    JavaScript
+
+    Font Awesome
 ## ✨ ویژگی‌های کلیدی
 
 - **طراحی سه‌بعدی پویا** با انیمیشن‌های روان
